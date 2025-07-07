@@ -502,7 +502,7 @@ const EquipmentListModal = ({ visible, onCancel, equipmentTypeData, room }) => {
                 <div className="inline-block p-3 bg-white rounded-lg shadow-sm">
                   <img
                     src={
-                      `https://invenmaster.pythonanywhere.com` +
+                      `https://imaster.pythonanywhere.com/` +
                       selectedEquipment.qr_code_url
                     }
                     alt="QR Code"
